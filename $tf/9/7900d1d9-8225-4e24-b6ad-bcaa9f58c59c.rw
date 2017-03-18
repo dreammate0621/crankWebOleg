@@ -1,0 +1,4 @@
+$font: 'Titillium web', Helvetica, sans-serif;
+$color-dark: #231f20;
+$border-color: #d4d5d7;
+$color-active: #87C347;

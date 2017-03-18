@@ -1,0 +1,15 @@
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\DownloadDigitalStations.exe.config
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\DownloadDigitalStations.exe
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\DownloadDigitalStations.pdb
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\AngleSharp.dll
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\Crankdata.dll
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\MongoDB.Bson.dll
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\MongoDB.Driver.Core.dll
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\MongoDB.Driver.dll
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\Crankdata.pdb
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\AngleSharp.xml
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\MongoDB.Bson.xml
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\bin\Debug\MongoDB.Driver.xml
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\obj\Debug\DownloadDigitalStations.csprojResolveAssemblyReference.cache
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\obj\Debug\DownloadDigitalStations.exe
+C:\Crank_Source\CrankCode\CrankDataDownload\DownloadDigitalStations\obj\Debug\DownloadDigitalStations.pdb

@@ -1,0 +1,9 @@
+{
+  "name": "mediabase",
+  "version": "0.0.0",
+  "description": "mediabase",
+  "main": "app.js",
+  "author": {
+    "name": "RajuKrishnappa"
+  }
+}

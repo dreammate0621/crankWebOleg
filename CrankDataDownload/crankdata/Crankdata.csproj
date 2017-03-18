@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8641D04-8044-48DD-9AA5-874C61C18EF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crankdata</RootNamespace>
+    <AssemblyName>Crankdata</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MongoDB.Bson, Version=2.2.4.26, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.2.4\lib\net45\MongoDB.Bson.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.2.4.26, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.2.2.4\lib\net45\MongoDB.Driver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.2.4.26, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.2.4\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.4.1\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ApiAccessKey.cs" />
+    <Compile Include="Models\APIKeyLoginModel.cs" />
+    <Compile Include="Models\Artist.cs" />
+    <Compile Include="Models\CompanyReqModel.cs" />
+    <Compile Include="Models\Compare.cs" />
+    <Compile Include="Models\ErrorModel.cs" />
+    <Compile Include="Models\EventSummaryComparer.cs" />
+    <Compile Include="Models\MetroAreaMarketMap.cs" />
+    <Compile Include="Models\ObjectIdListReq.cs" />
+    <Compile Include="Models\ArtistImage.cs" />
+    <Compile Include="Models\ArtistNameSearchModel.cs" />
+    <Compile Include="Models\ArtistSummary.cs" />
+    <Compile Include="Models\ArtistViewModel.cs" />
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\CompanyImage.cs" />
+    <Compile Include="Models\CompanySummary.cs" />
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\CrankdataContext.cs" />
+    <Compile Include="Models\Event.cs" />
+    <Compile Include="Models\EventExtras.cs" />
+    <Compile Include="Models\EventExtrasViewModel.cs" />
+    <Compile Include="Models\EventSummary.cs" />
+    <Compile Include="Models\EventViewModel.cs" />
+    <Compile Include="Models\Invitation.cs" />
+    <Compile Include="Models\LoginModel.cs" />
+    <Compile Include="Models\LoginResponseModelDelete.cs" />
+    <Compile Include="Models\MetroArea.cs" />
+    <Compile Include="Models\MetroAreaSummary.cs" />
+    <Compile Include="Models\MetroAreaViewModel.cs" />
+    <Compile Include="Models\Module.cs" />
+    <Compile Include="Models\ModuleImage.cs" />
+    <Compile Include="Models\ModuleViewModel.cs" />
+    <Compile Include="Models\MultipleArtistImagesModel.cs" />
+    <Compile Include="Models\PeformanceViewModel.cs" />
+    <Compile Include="Models\Performance.cs" />
+    <Compile Include="Models\PerformanceSummary.cs" />
+    <Compile Include="Models\PermissionSet.cs" />
+    <Compile Include="Models\ScraperAgency.cs" />
+    <Compile Include="Models\Song.cs" />
+    <Compile Include="Models\SongViewModel.cs" />
+    <Compile Include="Models\SpatialRefSys.cs" />
+    <Compile Include="Models\Station.cs" />
+    <Compile Include="Models\StationImage.cs" />
+    <Compile Include="Models\StationNameSearchModel.cs" />
+    <Compile Include="Models\StationSummary.cs" />
+    <Compile Include="Models\StationViewModel.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserDetail.cs" />
+    <Compile Include="Models\UserImage.cs" />
+    <Compile Include="Models\UserImageModel.cs" />
+    <Compile Include="Models\UserNameSearchModelDelete.cs" />
+    <Compile Include="Models\UserPwd.cs" />
+    <Compile Include="Models\UserPwdReqModel.cs" />
+    <Compile Include="Models\UserSummary.cs" />
+    <Compile Include="Models\UserReqModel.cs" />
+    <Compile Include="Models\Venue.cs" />
+    <Compile Include="Models\VenueImage.cs" />
+    <Compile Include="Models\VenueSummary.cs" />
+    <Compile Include="Models\VenueViewModel.cs" />
+    <Compile Include="Models\WeeklyPromotionHistory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

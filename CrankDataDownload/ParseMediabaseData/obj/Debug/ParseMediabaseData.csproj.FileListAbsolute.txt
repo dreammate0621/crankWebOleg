@@ -1,0 +1,1 @@
+C:\Crank_Source\CrankCode\CrankDataDownload\ParseMediabaseData\bin\Debug\ParseMediabaseData.exe.config

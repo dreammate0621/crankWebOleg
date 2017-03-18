@@ -1,0 +1,109 @@
+[
+  {
+    "venuename": "Madison Square Garden New York",
+    "venueid": "ObjectId(\"57b2aeeaa5d6ac0b24efdbf8\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=33"
+  },
+  {
+    "venuename": "Prudential Center Newark, N.J.",
+    "venueid": "ObjectId(\"57b2ade2a5d6ac0b24efd04c\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=22"
+  },
+
+  {
+    "venuename": "United Center Chicago",
+    "venueid": "ObjectId(\"57b2ade3a5d6ac0b24efd056\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Chase Center** San Francisco",
+    "venueid": "ObjectId(\"57b2afc5a5d6ac0b24efe50d\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Philips Arena Atlanta",
+    "venueid": "ObjectId(\"57b2aeeba5d6ac0b24efdc0d\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Wells Fargo Center Philadelphia",
+    "venueid": "ObjectId(\"57b2aeeaa5d6ac0b24efdbf2\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+
+  {
+    "venuename": "BB&T Center Fort Lauderdale, Fla.",
+    "venueid": "ObjectId(\"57b2b03ba5d6ac0b24efe9b0\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Little Caesars Arena** Detroit",
+    "venueid": "objectid(crankdb)",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Pepsi Center Denver",
+    "venueid": "ObjectId(\"57b2ad67a5d6ac0b24efccd5\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Amalie Arena Tampa",
+    "venueid": "ObjectId(\"57b2afcca5d6ac0b24efe588\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Scottrade Center St. Louis",
+    "venueid": "ObjectId(\"57b2aee2a5d6ac0b24efdbce\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Consol Energy Center Pittsburgh",
+    "venueid": "ObjectId(\"57b2ade3a5d6ac0b24efd054\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "AT&T Center San Antonio",
+    "venueid": "ObjectId(\"57b2ad85a5d6ac0b24efce62\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Golden 1 Center* Sacramento",
+    "venueid": "ObjectId(\"57b2ade4a5d6ac0b24efd066\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Proposed arena** Las Vegas",
+    "venueid": "objectid(crankdb)",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Quicken Loans Arena Cleveland",
+    "venueid": "ObjectId(\"57b2aee2a5d6ac0b24efdbc9\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Bankers Life Fieldhouse Indianapolis",
+    "venueid": "ObjectId(\"57b2afcca5d6ac0b24efe56c\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "First Niagara Center Buffalo",
+    "venueid": "ObjectId(\"57b2aeaea5d6ac0b24efd98c\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Air Canada Centre Toronto",
+    "venueid": "ObjectId(\"57b2aeeaa5d6ac0b24efdc01\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Rogers Arena Vancouver",
+    "venueid": "ObjectId(\"57b2afcaa5d6ac0b24efe554\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  },
+  {
+    "venuename": "Xcel Energy Center St. Paul, Minn.",
+    "venueid": "ObjectId(\"57b2ad6da5d6ac0b24efcd24\")",
+    "venueeventurl": "http://events.mapchannels.com/Index.aspx?venue=46"
+  }
+]
